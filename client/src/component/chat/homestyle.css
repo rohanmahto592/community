@@ -1,0 +1,94 @@
+
+  .chat__mainHeader {
+    width: 100%;
+    margin-top: 3vh;
+    border:1px solid teal;
+    border-radius: 0.8vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color:teal;
+    font-family:'comic sans ms';
+    font-size:3vh;
+   
+  }
+  .message__container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width:100%;
+   height:auto;
+  }
+  .message__container > * {
+    margin-bottom: 10px;
+  }
+  
+  .message__recipient {
+    background-color: rgba(112, 22, 221, 0.966);
+    max-height: 100vh;
+    max-width: 80vh;
+    padding: 10px;
+    border-radius:0.5vh;
+    font-size: 15px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    font-family: 'comic sans ms';
+  }
+  .message__sender {
+    background-color: rgb(18, 123, 221);
+    padding: 10px;
+    max-width:80vh;
+    border-radius:0.5vh;
+    margin-left: auto;
+    font-size: 15px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    font-family: 'comic sans ms';
+  }
+  .sender__name {
+    text-align: right;
+    color:whitesmoke;
+    font-family: 'comic sans ms';
+    font-size: 2.3vh;
+    padding-bottom: 1vh;
+  }
+  .message__status {
+   
+
+    font-size: 13px;
+    font-weight:200;
+    
+    font-style: italic;
+    color:whitesmoke
+  }
+  .chat__sidebar {
+      margin-top: 3vh;
+   border: 1px solid teal;
+   border-radius: 1vh;
+    flex: 0.2;
+    padding: 10px;
+    
+  }
+  .chat__main {
+    height: 100%;
+    flex: 0.8;
+  }
+  .chat__header {
+    margin: 30px 0 20px 0;
+  }
+  .chat__users > * {
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: 'comic sans ms';
+    
+    font-size: 14px;
+  }
+  .online__users > * {
+    margin-bottom: 10px;
+    color: rgb(238, 102, 102);
+    font-style: italic;
+  }
